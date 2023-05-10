@@ -1,0 +1,44 @@
+/*---===================------
+    color-switcher start
+-----===================----*/
+.color_switcher {
+    background: #ff3a44;
+    padding: 10px;
+    width: 112x;
+    position: fixed;
+    top: 467px;
+    left: -73px;
+    z-index: 999;
+    display: flex;
+    border-radius: 50px;
+    transition: all linear 0.4s;
+    }
+    .green i {
+      color: balck;
+      font-size: 22px;
+      padding-right: 6px;
+      cursor: pointer;
+    }
+    .DarkCyan i {
+      color: DarkCyan;
+      font-size: 22px;
+      padding-right: 6px;
+      cursor: pointer;
+    }
+    .CornflowerBlue i {
+      color: CornflowerBlue;
+      font-size: 22px;
+      padding-right: 6px;
+      cursor: pointer;
+    }
+    .switch i {
+      color: rgb(0, 0, 0);
+      font-size: 26px;
+      cursor: pointer;
+    }
+    .slides {
+      left: 0;
+    }
+    /*---===================------
+       color-switcher end
+    -----===================----*/
