@@ -3,7 +3,7 @@
         padding: 8px 15px;
         font-size: 13px;
         margin-right: 15px;
-        margin-top: 20px;
+        margin-top: 5px;
     }
     .toggol_bar i {
         font-size: 18px;
@@ -13,6 +13,7 @@
     .navbar-expand-lg {
         top: -4px;
         left: 0;
+        text-align: center;
     }
     img, svg {
         padding-top: 15px;
@@ -27,10 +28,15 @@
     #banner {
         padding: 110px 0 50px 0;
     }
+    .wow.animate__backInUp.banner_btn {
+     display: block;
+     text-align: center;
+    }
     .banner_text p {
         font-size: 15px;
         padding-bottom: 13px;
         width: auto;
+        text-align: center;
     }
     .banner_btn a {
         font-size: 15px;
@@ -42,6 +48,7 @@
     #collaborative {
         padding-top: 104px;
         width: auto;
+        text-align: center;
     }
     .collaborative_top_text h3 {
         font-size: 36px;
@@ -53,15 +60,15 @@
         padding-bottom: 25px;
     }
     .collaborative_card {
-        margin: 0 50px 0 50px;
+        margin: 0px 22px 0 22px;
     }
     .collaborative_card_wra h3 {
-        font-size: 20px;
+        font-size: 18px;
         padding: 14px 0 6px 0;
     }
     .collaborative_card_wra p {
-        font-size: 14px;
-        padding-bottom: 31px;
+        font-size: 13px;
+        padding-bottom: 28px;
     }
     .collaborative_card_bell i {
         font-size: 30px;
@@ -73,31 +80,31 @@
         font-size: 36px;
         padding-top: 49px;
         padding-bottom: 30px;
+        text-align: center;
+    }
+    .happy_contant {
+        display: block;
+        text-align: center;
     }
     .contant1 p {
+        padding-left: 0px;
+        padding-bottom: 15px;
         font-size: 13px;
-        line-height: 23px;
+        line-height: 18px;
+    }
+    .contant1_had h3 {
+        font-size: 35px;
+        padding-right: 5px;
+    }
+    .d-flex {
+        display: block !important;
+    }
+    .happy_contant_wra {
+        margin-left: 0px;
+        text-align: center;
     }
     #happy {
         padding-bottom: 35px;
-    }
-    .Decision {
-        /* width: 25px; */
-        margin-left: 30px;
-        margin-right: 10px;
-        font-size: 16px;
-    }
-    #lable {
-        padding-bottom: 85px;
-    }
-    .lable_left_contant p {
-        padding-left: 67px;
-        width: auto;
-        font-size: 14px;
-    }
-    .lable_left_contant {
-        width: auto;
-        margin-bottom: 22px;
     }
     .lable_hape img {
         display: none;
@@ -109,17 +116,48 @@
         padding-top: 0px;
         width: 100%;
         padding: 0 5px 0 5px;
+    }.lable_left_contant {
+        height: 158px;
+        text-align: center;
+        width: auto;
     }
-    .lable_left_contant {
-        height: 149px;
+    #lable {
+        padding-bottom: 50px;
+    }
+    .lable_left_contant p {
+        padding-left: 0;
+        width: auto;
+        font-size: 14px;
+        text-align: center;
+    }
+    .Decision {
+        margin-top: -4px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 8px;
     }
     .lable_right_contant::after {
         left: 1px;
         width: 100%;
         height: 293px;
     }
+    .customer_det img {
+        display: none;
+    }
+    .customer_det {
+        padding-top: 35px !important;
+        padding-left: 0px !important;
+        text-align: center !important;
+    }
+
+
+
+
+
+
+
     .customer_hadding h3 {
-        font-size: 36px;
+        font-size: 35px;
     }
     .images_vic img {
         display: none;
@@ -169,19 +207,24 @@
     }
     .help_left_part h2 {
         font-weight: 600;
-        font-size: 43px;
-        line-height: 58px;
+        font-size: 40px;
+        line-height: 55px;
         width: auto;
+        text-align: center;
     }
     .help_left_part a {
-        width: 200px;
-        height: 47px;
-        line-height: 48px;
-        margin-top: 10px;
+        width: auto;
+        padding: 0 10px;
+    }
+    .right_part {
+        margin-left: 0px !important;
+    }
+    .help_left_part {
+        margin-left: 0px !important;
     }
     #help {
-        padding-bottom: 50px;
-        padding-top: 30px;
+        padding-bottom: 5px;
+        padding-top: 0px;
     }
     .right_part {
         margin-left: 74px;
@@ -192,6 +235,10 @@
         padding-top: 10px 0 5px 0;
         width: auto;
         padding-top: 12px;
+        text-align: center;
+    }
+    #footer {
+        padding: 22px 0 25px 0;
     }
     #help::after {
         height: 481px;
