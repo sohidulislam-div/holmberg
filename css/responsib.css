@@ -210,16 +210,12 @@
         font-size: 40px;
         line-height: 55px;
         width: auto;
-        text-align: center;
     }
     .help_left_part a {
         width: auto;
         padding: 0 10px;
     }
     .right_part {
-        margin-left: 0px !important;
-    }
-    .help_left_part {
         margin-left: 0px !important;
     }
     #help {
@@ -241,7 +237,7 @@
         padding: 22px 0 25px 0;
     }
     #help::after {
-        height: 481px;
+        width: auto;
     }
     .footer_top_line {
         top: 16px;
